@@ -1,0 +1,45 @@
+/* src/Login.css */
+.login-container {
+    background: linear-gradient(to right, #ca03f7, #d05407, #424040);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .login-container h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .login-container .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .login-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; /* Added margin-bottom property */
+  }
+  
+  .login-container button {
+    background-color: #61dafb;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .login-container button:hover {
+    background-color: #21a1f1;
+  }
+  
